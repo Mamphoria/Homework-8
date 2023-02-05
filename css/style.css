@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 200px;
+    box-shadow: 10px 15px red;
+    transition-duration: 2s;
+}
+
+.box:hover{
+    cursor: pointer;
+    box-shadow: 10px 15px rgba(255, 0, 0, .5);
+    /* width: 400px;
+    height: 400px; */
+    transform: scale(2);
+}
