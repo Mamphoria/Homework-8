@@ -1,4 +1,4 @@
-.box{
+.Square{
     width: 200px;
     height: 200px;
     border: 2px solid blue;
@@ -7,7 +7,7 @@
     transition-duration: 2s;
 }
 
-.box:hover{
+.Square:hover{
     cursor: pointer;
     box-shadow: 10px 15px rgba(255, 0, 0, .5);
     transform: scale(2);
