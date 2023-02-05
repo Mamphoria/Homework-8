@@ -10,7 +10,7 @@
 .Square{
     width: 200px;
     height: 200px;
-    border: 2px solid blue;
+    border: 3px solid blue;
     box-shadow: 15px 10px 5px red;
     transition-duration: 2s;
     margin-right: 500px;
@@ -102,4 +102,27 @@ li:hover{
     background-color: rgb(212, 207, 207);
     font-size: 22px;
     transition-duration: 2s;
+}
+
+/* <<< 5 >>> */
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    animation: photo 5s infinite;
+}
+
+@keyframes photo{
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
 }
