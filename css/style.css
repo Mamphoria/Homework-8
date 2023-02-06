@@ -134,8 +134,7 @@ li:hover{
     position: absolute;
     top: 1500;
     left: 50;
-    animation: photo2 20s infinite 2s;
-    margin-bottom: 600px;
+    animation: photo2 20s infinite 20s;
 }
 
 @keyframes photo2{
@@ -164,3 +163,43 @@ li:hover{
         left: 50px;
     }
 }
+
+/* <<< 6 >>> */
+
+.loading{
+    margin-top: 300px;
+    margin-left: 400px;
+    width: 800px;
+    height: 44px;
+    border: 2px solid rgb(61, 90, 61);
+    border-radius: 30px;
+    margin-bottom: 100px;   
+    position: relative; 
+    display: flex;
+    align-items: center;
+  }
+
+  .line{
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+    animation: line 4s forwards cubic-bezier(0,0,0,0) infinite;
+  }
+
+  .loading_text{
+    margin-left: 45%;
+    font-size: 18px;
+    position: absolute;
+    }
+
+  @keyframes line{
+    0%{
+        background-color: white;
+        width: 0%;
+    }
+
+    100%{
+        background-color: rgb(242, 110, 110);
+        width: 100%;
+    }
+  }
