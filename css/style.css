@@ -183,7 +183,7 @@ li:hover{
     height: 100%;
     border-radius: 30px;
     background-color: white;
-    animation: line 4s forwards cubic-bezier(0,0,0,0) infinite;
+    animation: line 8s forwards cubic-bezier(0,0,0,0) infinite;
   }
 
   .loading_text{
