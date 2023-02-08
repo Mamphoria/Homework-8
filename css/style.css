@@ -129,11 +129,11 @@ li:hover{
 
 @keyframes photo{
     0% {
-        transform: rotateZ(0deg);
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotateZ(360deg);
+        transform: rotate(360deg);
     }
 
 }
